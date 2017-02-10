@@ -6,15 +6,17 @@ body {
 .handle {
 	position: fixed;
 	top: 100px;
-	left: 20px;
-	width: 40px;
-	height: 200px;
+	left: 100px;
+	width: 80px;
+	height: 600px;
 	background-color: grey;
 }
+
+
 .handle2 {
 	position: fixed;
-	top: 100px;
-	left: 100px;
+	top: 400px;
+	left: 400px;
 	width: 40px;
 	height: 200px;
 	background-color: red;
