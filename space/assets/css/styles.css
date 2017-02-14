@@ -1,6 +1,6 @@
 body {
 
-	background: url("landingpage.png");
+	background: url ("../assets/img/fridge.png");
 }
 
 .handle {
@@ -13,11 +13,11 @@ body {
 }
 
 
-.handle2 {
+/*.handle2 {
 	position: fixed;
 	top: 400px;
 	left: 400px;
 	width: 40px;
 	height: 200px;
 	background-color: red;
-}
+}*/
