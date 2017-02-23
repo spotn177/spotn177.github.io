@@ -12,6 +12,7 @@ body {
 
 .topbar {
 	position: fixed center;
+	z-index: 1;
 	top: 0px;
 	margin-left: auto;
 	margin-right: auto;
@@ -23,9 +24,10 @@ body {
 
 .uparrow {
 	position: absolute center;
-	top: 0px;
-	margin-left: 50%;
-	margin-right: 50%;
+	z-index: 2;
+	/*top: 0px;*/
+	margin-left: 55%;
+	margin-right: auto;
 	width: 0;
 	height: 0;
 	border-left: 30px solid transparent;
@@ -36,10 +38,11 @@ body {
 
 .downarrow {
 	position: fixed center;
-	margin-left: 50%;
-	margin-right: 50%;
+	margin-left: 55%;
+	margin-right: auto;
 	width: 0;
 	height: 0;
+	/*top: 20px;*/
 	border-left: 30px solid transparent;
 	border-right: 30px solid transparent;
 	border-top: 30px solid #fff;
