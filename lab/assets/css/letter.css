@@ -1,0 +1,92 @@
+body {
+	margin: 50;
+	padding: 0;
+	font-size: 0;
+}
+
+.spacer {
+	height: 2000px;
+}
+
+
+.container {
+	background: #ff0;
+	width: 150px;
+	height: 150px;
+	position: fixed;
+	overflow: hidden;
+	right: 25px;
+	bottom: 25px;
+}
+
+.red-square {
+	width: 100px;
+	height: 100px;
+	background: #f00;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.blue-square {
+	width: 100px;
+	height: 100px;
+	background: #00f;
+}
+
+.letter-wrapper {
+	display: inline-block;
+	margin: 0 15px 60px 15px;
+}
+
+.letter {
+	width: 150px;
+	height: 200px;
+	background: #f8f8f8;
+	position: relative;
+}
+
+.bar{
+	position: absolute;
+	background: #000;
+	border-radius: 15px;
+}
+
+.bar.vertical {
+	height: 100%;
+	width: 20%;
+}
+
+.bar.horizontal {
+	height: 15%;
+	width: 100%;
+}
+
+.mid {
+	top: 43.5%;
+}
+
+.right {
+	right: 0px;
+}
+
+.red { background: #f00; }
+.yellow { background: #ff0; }
+.blue { background: #00f; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
