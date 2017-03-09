@@ -77,6 +77,50 @@ body {
 	position: relative;
 }
 
+.box-topright-infront1 {
+	width: 392px;
+	height: 8px;
+	background: #ced0cd;
+	top: 10px;
+	left: 10px;
+	position: relative;
+}
+
+.box-topright-infront2 {
+	width: 392px;
+	height: 8px;
+	background: #ced0cd;
+	top: 20px;
+	left: 10px;
+	position: relative;
+}
+
+.box-topright-infront3 {
+	width: 392px;
+	height: 8px;
+	background: #ced0cd;
+	top: 30px;
+	left: 10px;
+	position: relative;
+}
+
+.box-topright-infront4 {
+	width: 392px;
+	height: 8px;
+	background: #ced0cd;
+	top: 40px;
+	left: 10px;
+	position: relative;
+}
+
+.box-topright-infront5 {
+	width: 392px;
+	height: 8px;
+	background: #ced0cd;
+	top: 50px;
+	left: 10px;
+	position: relative;
+}
 
 
 
@@ -91,6 +135,78 @@ body {
 	display: inline-block;
 }
 
+.box-bottomleft-behind {
+	width: 412px;
+	height: 100px;
+	background: #222e2a;
+	top: 50px;
+	left: 50px;
+	position: relative;
+}
+
+.box-bottomleft-infront1 {
+	width: 57px;
+	height: 80px;
+	background: #495056;
+	top: 10px;
+	left: 10px;
+	position: relative;
+}
+
+.box-bottomleft-infront2 {
+	width: 57px;
+	height: 80px;
+	background: #495056;
+	top: 10px;
+	left: 77px;
+	position: absolute;
+}
+
+.box-bottomleft-infront3 {
+	width: 57px;
+	height: 80px;
+	background: #495056;
+	top: 10px;
+	left: 144px;
+	position: absolute;
+}
+
+.box-bottomleft-infront4 {
+	width: 57px;
+	height: 80px;
+	background: #495056;
+	top: 10px;
+	left: 211px;
+	position: absolute;
+}
+
+.box-bottomleft-infront5 {
+	width: 57px;
+	height: 80px;
+	background: #495056;
+	top: 10px;
+	left: 278px;
+	position: absolute;
+}
+
+.box-bottomleft-infront6 {
+	width: 57px;
+	height: 80px;
+	background: #495056;
+	top: 10px;
+	left: 345px;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
 .box-bottomright {
 	width: 256px;
 	height: 400px;
@@ -98,6 +214,45 @@ body {
 	display: inline-block;
 }
 
+.box-bottomright-infront1 {
+	width: 156px;
+	height: 10px;
+	background: #ced0cd;
+	top: 50px;
+	left: 50px;
+	position: relative;
+}
+
+.box-bottomright-infront2 {
+	width: 156px;
+	height: 10px;
+	background: #ced0cd;
+	top: 330px;
+	left: 50px;
+	position: relative;
+}
+
+.box-bottomright-infront3 {
+	width: 10px;
+	height: 280px;
+	background: #ced0cd;
+	top: 40px;
+	left: 123px;
+	position: relative;
+}
+
+
+.circle{
+	display: block;
+	width: 100px;
+	height: 100px;
+	top: 250px;
+	left: 352px;
+	background: #d8d8d8;
+	color: #d8d8d8;
+	border-radius: 50%;
+	position: absolute;
+}
 
 
 
