@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.composition {
+	width: 768px;
+	height: 768px;
+	background: #f8e71c
+}
+
+.bluesquare {
+	width: 568px;
+	height: 568px;
+	background: #202665;
+	top: 100px;
+	left: 100px;
+	position: relative;
+}
+
+.greensquare {
+	width: 368px;
+	height: 368px;
+	background: #009e4f;
+	top: 100px;
+	left: 100px;
+	position: relative;
+}
+
+.redrectangle {
+	width: 328px;
+	height: 67px;
+	background: #ed2025;
+	top: 20px;
+	left: 20px;
+	position: relative;
+}
+
+.redrectangle2 {
+	width: 328px;
+	height: 67px;
+	background: #ed2025;
+	top: 40px;
+	left: 20px;
+	position: relative;
+}
+
+.redrectangle3 {
+	width: 328px;
+	height: 67px;
+	background: #ed2025;
+	top: 60px;
+	left: 20px;
+	position: relative;
+}
+
+.redrectangle4 {
+	width: 328px;
+	height: 67px;
+	background: #ed2025;
+	top: 80px;
+	left: 20px;
+	position: relative;
+}
+
+.redbottom {
+	width: 768px;
+	height: 100px;
+	background: #D0021B;
+	top: 668px;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
