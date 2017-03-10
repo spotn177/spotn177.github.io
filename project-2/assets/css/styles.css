@@ -1,3 +1,8 @@
+* {
+	box-sizing: border-box;
+}
+
+
 body {
 	margin: 50;
 	padding: 0;
@@ -13,23 +18,25 @@ body {
 	width: 100px;
 	height: 190px;
 	background: #ff1;
+	position: relative;
+	display: inline-block;
+	margin: 10px;
 }
 
-.h-line-vertical1 {
+.vertical-r {
 	width: 2px;
 	height: 190px;
 	background: #000;
-	left: 100px;
-	display: inline-block;
-	position: relative;
+	right: 0;
+	position: absolute;
 }
-.h-line-vertical2 {
+/*.h-line-vertical2 {
 	width: 2px;
 	height: 190px;
 	background: #000;
 	left: 90px;
 	display: inline-block;
-	position: relative;
+	position: absolute;
 }
 .h-line-vertical3 {
 	width: 2px;
@@ -37,14 +44,28 @@ body {
 	background: #000;
 	left: 80px;
 	display: inline-block;
-	position: relative;
+	position: absolute;
 }
-
-.h-line-horizontal1 {
+*/
+.horizontal-mid {
 	width: 100px;
 	height: 2px;
 	background: #000;
-	top: 84px;
-	position: relative;
+	top: 50%;
+	margin-top: -1px;
+	position: absolute;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
