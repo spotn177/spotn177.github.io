@@ -1,0 +1,50 @@
+body {
+	margin: 50;
+	padding: 0;
+	font-size: 0;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.letter-container {
+	width: 100px;
+	height: 190px;
+	background: #ff1;
+}
+
+.h-line-vertical1 {
+	width: 2px;
+	height: 190px;
+	background: #000;
+	left: 100px;
+	display: inline-block;
+	position: relative;
+}
+.h-line-vertical2 {
+	width: 2px;
+	height: 190px;
+	background: #000;
+	left: 90px;
+	display: inline-block;
+	position: relative;
+}
+.h-line-vertical3 {
+	width: 2px;
+	height: 190px;
+	background: #000;
+	left: 80px;
+	display: inline-block;
+	position: relative;
+}
+
+.h-line-horizontal1 {
+	width: 100px;
+	height: 2px;
+	background: #000;
+	top: 84px;
+	position: relative;
+}
+
