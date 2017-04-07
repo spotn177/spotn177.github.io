@@ -169,6 +169,65 @@ body {
 
 
 
+.horizontal-bottom-top {
+	width: 150px;
+	height: 2px;
+	background: #000;
+	top: 180px;
+	margin-top: -1px;
+	position: absolute;
+}
+
+.horizontal-bottom-mid {
+	width: 150px;
+	height: 2px;
+	background: #000;
+	top: 190px;
+	margin-top: -1px;
+	position: absolute;
+}
+
+.horizontal-bottom-bottom {
+	width: 150px;
+	height: 2px;
+	background: #000;
+	bottom: 0px;
+	margin-top: -1px;
+	position: absolute;
+}
+
+.horizontal-bottom-half-bottom {
+	width: 85px;
+	height: 2px;
+	background: #000;
+	left: 0;
+	bottom: 0px;
+	position: absolute;
+}
+
+.horizontal-bottom-half-mid {
+	width: 85px;
+	height: 2px;
+	background: #000;
+	left: 0;
+	bottom: 10px;
+	position: absolute;
+}
+
+.horizontal-bottom-half-top {
+	width: 85px;
+	height: 2px;
+	background: #000;
+	left: 0;
+	bottom: 20px;
+	position: absolute;
+}
+
+
+
+
+
+
 .rectangle-left {
 	width: 80px;
 	height: 200px;
@@ -200,6 +259,120 @@ body {
 }
 
 
+.rectangle-half-right {
+	width: 75px;
+	height: 80px;
+	background: #D9E02A;
+	top: 75px;
+	right: 0;
+	position: absolute;
+	display: inline-block;
+	opacity: 0;
+}
+
+.rectangle-half-right:hover{
+	opacity: 100;
+	cursor: pointer;
+}
+
+
+.rectangle-vertical-center {
+	width: 80px;
+	height: 200px;
+	background: #D9E02A;
+	top: 0;
+	right: 35;
+	position: absolute;
+	display: inline-block;
+	opacity: 0;
+}
+
+.rectangle-vertical-center:hover{
+	opacity: 100;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.vertical-right-half-right{
+	width: 2px;
+	height: 100px;
+	background: #000;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+}
+
+.vertical-right-half-mid{
+	width: 2px;
+	height: 100px;
+	background: #000;
+	left: 140;
+	bottom: 0;
+	position: absolute;
+}
+
+.vertical-right-half-left{
+	width: 2px;
+	height: 100px;
+	background: #000;
+	left: 130;
+	bottom: 0;
+	position: absolute;
+}
+
+
+
+
+
+.vertical-right-p-right {
+	width: 2px;
+	height: 110px;
+	background: #000;
+	top: 0;
+	right: 0;
+	position: absolute;
+}
+
+.vertical-right-p-mid {
+	width: 2px;
+	height: 110px;
+	background: #000;
+	top: 0;
+	right: 10px;
+	position: absolute;
+}
+
+.vertical-right-p-left {
+	width: 2px;
+	height: 110px;
+	background: #000;
+	top: 0;
+	right: 20px;
+	position: absolute;
+}
+
+
+
+.k-upper-left{
+	width: 150px;
+	height: 200px;
+	border-bottom: 2px black;
+	-webkit-transform:
+		translateY(20px)
+		translateX(5px)
+		rotate(-26deg);
+	top: -33px;
+	left: -13px;
+	position: absolute;
+}
 
 
 
