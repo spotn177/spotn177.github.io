@@ -9,14 +9,14 @@ body {
 	font-size: 0;
 }
 
-.wrapper {
+.wrapper1 {
 	width: 100%;
 	margin: 0 auto;
 }
 
 .slots {
-	width: 800px;
-	height: 300px;
+	width: 660px;
+	height: 270px;
 	position: relative;
 	margin: 0 auto;
 }
@@ -48,14 +48,59 @@ body {
 	margin: 10px;
 }
 
-.play {
-	width: 200px;
-	height: 100px;
-	background: red;
+
+.wrapper2 {
+	width: 660px;
+	height: 270px;
 	position: relative;
 	margin: 0 auto;
 }
 
+.play1 {
+	width: 200px;
+	height: 100px;
+	background: red;
+	position: relative;
+	display: inline-block;
+	margin: 10px;
+}
+
+.play2 {
+	width: 200px;
+	height: 100px;
+	background: red;
+	position: relative;
+	display: inline-block;
+	margin: 10px;
+}
+
+.play3 {
+	width: 200px;
+	height: 100px;
+	background: red;
+	position: relative;
+	display: inline-block;
+	margin: 10px;
+}
+
+.play1:hover {
+	cursor: pointer;
+}
+
+.play2:hover {
+	cursor: pointer;
+}
+
+.play3:hover {
+	cursor: pointer;
+}
+
+.border-wrapper {
+	width: 700px;
+	height: 450px;
+	position: relative;
+	margin: 0 auto;
+}
 
 
 
