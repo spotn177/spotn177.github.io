@@ -1,14 +1,35 @@
 * {
   box-sizing: border-box;
 }
+
 body {
-  margin: 50;
   padding: 0;
-  font-size: 0;
+  font-size: 100px;
+  font-family: impact;
+  letter-spacing: 5px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: red;
+  background: url('../img/background.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .hidden {
   display: none;
 }
+
+.wrapper2 {
+  font-size: 20px;
+  font-family: impact;
+  display: inline-block;
+  color: white;
+}
+
+
+
 .wrapper1 {
   width: 100%;
   margin: 0 auto;
@@ -25,6 +46,7 @@ body {
   width: 175px;
   height: 225px;
   border: dashed;
+  border-color: red;
   position: relative;
   display: inline-block;
   margin: 10px;
@@ -42,6 +64,9 @@ body {
   width: 175px;
   height: 100px;
   background: red;
+  border-style: groove;
+  border-color: red;
+  border-width: 20px;
   position: relative;
   display: inline-block;
   margin: 10px;
@@ -339,7 +364,6 @@ body {
   position: absolute;
   transform: rotate(-40deg);
 }
-
 
 
 

@@ -1,3 +1,19 @@
+// Define a function to change text color
+function changeTextColor(id, newColor) {
+    var textTag = $('#'+id);
+    // change color with textTag.style.color
+    textTag.attr("style", "color:"+newColor);
+}
+
+function randomColorValue() {
+    // generate a random color like "rgb(152,251,123)"
+    return "rgb(" + Math.floor(Math.random() * 255) + "," + Math.floor(Math.random() * 255) + "," + Math.floor(Math.random() * 255) + ")";
+}
+
+// Now every 500 ms we changeTextColor to a random color
+setInterval( function() {
+    changeTextColor('blink', randomColorValue())
+}, 500); // interval to call this function
 
   $(".wrapper2 > div").click(function () {
 
