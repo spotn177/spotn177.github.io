@@ -34,19 +34,28 @@ setInterval( function() {
   });
 
 $(".play1").click(function() {
-myStopFunction()
+  stopSlotOne();
 });
 
-var playOne = setInterval(function(){ playColOne() }, 100);
+$(".play2").click(function() {
+  stopSlotTwo();
+});
 
-function playColOne() {
-         var totalNum = $(".hidden > .letter-container").length;
+$(".play3").click(function() {
+  stopSlotThree();
+});
 
+var playOne   = setInterval(function(){ cycleSlot('.letter1-box') }, 100);
+var playTwo   = setInterval(function(){ cycleSlot('.letter2-box') }, 100);
+var playThree = setInterval(function(){ cycleSlot('.letter3-box') }, 100);
+
+function cycleSlot(slot_to_target) {
+    var totalNum = $(".hidden > .letter-container").length;
     var min = 0;
     var max = totalNum - 1;
     var randomNum = Math.floor(Math.random() * (max - min + 1) + min);
     //console.log(randomNum);
-    var $lb = $(".letter1-box");
+    var $lb = $(slot_to_target);
 
     $lb.html("");
     $(".hidden > .letter-container").eq(randomNum).clone().appendTo($lb);
@@ -56,17 +65,14 @@ function playColOne() {
       $(".slots").removeAttr("style");
 }
 
-function myStopFunction() {
+function stopSlotOne() {
     clearInterval(playOne);
 }
 
+function stopSlotTwo() {
+    clearInterval(playTwo);
+}
 
-  setInterval(
-    function(){ 
-      $(".play2").click();
-    }, 100);
-
-  setInterval(
-    function(){ 
-      $(".play3").click();
-    }, 100);
+function stopSlotThree() {
+    clearInterval(playThree);
+}
