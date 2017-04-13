@@ -15,7 +15,7 @@ setInterval( function() {
     changeTextColor('blink', randomColorValue())
 }, 500); // interval to call this function
 
-  $(".wrapper2 > div").click(function () {
+$(".wrapper2 > div").click(function () {
 
     var totalNum = $(".hidden > .letter-container").length;
 
@@ -27,22 +27,42 @@ setInterval( function() {
 
     $lb.html("");
     $(".hidden > .letter-container").eq(randomNum).clone().appendTo($lb);
-    if ($(".letter1-box > div").attr("class") == $(".letter2-box > div").attr("class") && $(".letter2-box > div").attr("class") == $(".letter3-box > div").attr("class"))
-      $(".slots").css("background", "yellow");
+    var letter1Class = $(".letter1-box > div").attr("class");
+    var letter2Class = $(".letter2-box > div").attr("class");
+    var letter3Class = $(".letter3-box > div").attr("class");
+
+    console.log("1", letter1Class, "2", letter2Class, "3", letter3Class);
+    if (letter1Class == letter2Class && letter2Class == letter3Class)
+    {
+        console.log("we've got a match");
+        $(".jackpot").show();
+        $('.playagain').show();
+    }
     else
-      $(".slots").removeAttr("style");
-  });
+    {
+        $(".slots").removeAttr("style");
+        if(letter1Class != letter2Class )
+        {
+         //   console.log(letter1Class +  " is not equal to " + letter2Class);
+        }
+        if(letter2Class != letter3Class)
+        {
+           // console.log(letter2Class +  " is not equal to " + letter3Class);
+        }
+    }
+
+});
 
 $(".play1").click(function() {
-  stopSlotOne();
+    stopSlotOne();
 });
 
 $(".play2").click(function() {
-  stopSlotTwo();
+    stopSlotTwo();
 });
 
 $(".play3").click(function() {
-  stopSlotThree();
+    stopSlotThree();
 });
 
 var playOne   = setInterval(function(){ cycleSlot('.letter1-box') }, 100);
@@ -60,9 +80,9 @@ function cycleSlot(slot_to_target) {
     $lb.html("");
     $(".hidden > .letter-container").eq(randomNum).clone().appendTo($lb);
     if ($(".letter1-box > div").attr("class") == $(".letter2-box > div").attr("class") && $(".letter2-box > div").attr("class") == $(".letter3-box > div").attr("class"))
-      $(".slots").css("background", "yellow");
+        $("#jackpot").show();
     else
-      $(".slots").removeAttr("style");
+        $(".slots").removeAttr("style");
 }
 
 function stopSlotOne() {
