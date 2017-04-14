@@ -99,42 +99,42 @@ body {
   width: 2px;
   height: 200px;
   background: #000;
-  right: 0;
+  right: 0px;
   position: absolute;
 }
 .vertical-right-mid {
   width: 2px;
   height: 200px;
   background: #000;
-  right: 10;
+  right: 10px;
   position: absolute;
 }
 .vertical-right-left {
   width: 2px;
   height: 200px;
   background: #000;
-  right: 20;
+  right: 20px;
   position: absolute;
 }
 .vertical-left-left {
   width: 2px;
   height: 200px;
   background: #000;
-  left: 0;
+  left: 0px;
   position: absolute;
 }
 .vertical-left-mid {
   width: 2px;
   height: 200px;
   background: #000;
-  left: 10;
+  left: 10px;
   position: absolute;
 }
 .vertical-left-right {
   width: 2px;
   height: 200px;
   background: #000;
-  left: 20;
+  left: 20px;
   position: absolute;
 }
 .vertical-mid-mid {
@@ -186,7 +186,7 @@ body {
   width: 150px;
   height: 2px;
   background: #000;
-  top: 10;
+  top: 10px;
   margin-top: -1px;
   position: absolute;
 }
@@ -234,7 +234,7 @@ body {
   width: 85px;
   height: 2px;
   background: #000;
-  left: 0;
+  left: 0px;
   bottom: 0px;
   position: absolute;
 }
@@ -242,7 +242,7 @@ body {
   width: 85px;
   height: 2px;
   background: #000;
-  left: 0;
+  left: 0px;
   bottom: 10px;
   position: absolute;
 }
@@ -250,7 +250,7 @@ body {
   width: 85px;
   height: 2px;
   background: #000;
-  left: 0;
+  left: 0px;
   bottom: 20px;
   position: absolute;
 }
@@ -258,7 +258,7 @@ body {
   width: 80px;
   height: 200px;
   background: #ef4b4b;
-  left: 0;
+  left: 0px;
   position: absolute;
   opacity: 0;
 }
@@ -284,7 +284,7 @@ body {
   height: 80px;
   background: #D9E02A;
   top: 75px;
-  right: 0;
+  right: 0px;
   position: absolute;
   display: inline-block;
   opacity: 0;
@@ -297,8 +297,8 @@ body {
   width: 80px;
   height: 200px;
   background: #D9E02A;
-  top: 0;
-  right: 35;
+  top: 0px;
+  right: 35px;
   position: absolute;
   display: inline-block;
   opacity: 0;
@@ -311,39 +311,39 @@ body {
   width: 2px;
   height: 100px;
   background: #000;
-  right: 0;
-  bottom: 0;
+  right: 0px;
+  bottom: 0px;
   position: absolute;
 }
 .vertical-right-half-mid {
   width: 2px;
   height: 100px;
   background: #000;
-  left: 140;
-  bottom: 0;
+  left: 140px;
+  bottom: 0px;
   position: absolute;
 }
 .vertical-right-half-left {
   width: 2px;
   height: 100px;
   background: #000;
-  left: 130;
-  bottom: 0;
+  left: 130px;
+  bottom: 0px;
   position: absolute;
 }
 .vertical-right-p-right {
   width: 2px;
   height: 110px;
   background: #000;
-  top: 0;
-  right: 0;
+  top: 0px;
+  right: 0px;
   position: absolute;
 }
 .vertical-right-p-mid {
   width: 2px;
   height: 110px;
   background: #000;
-  top: 0;
+  top: 0px;
   right: 10px;
   position: absolute;
 }
@@ -351,7 +351,7 @@ body {
   width: 2px;
   height: 110px;
   background: #000;
-  top: 0;
+  top: 0px;
   right: 20px;
   position: absolute;
 }
@@ -377,8 +377,8 @@ body {
   color: red;
   position: fixed;
   z-index: 5;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
 }
 
 .jackpot span {
