@@ -9,6 +9,24 @@
         transition: all 0.5s linear;
         font-family: helvetica;
       }
+
+
+
+
+
+
+
+.winreload {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+}
+
+
+
       .columns {
         width: 33%;
         text-align: center;
@@ -56,20 +74,14 @@
       .next-screen p {
         padding: 10px;
         text-align: center;
-        font-size: 50px
+        position: fixed;
       }
-      @media screen and (max-width: 350px) {
+      @media screen and (max-width: 700px) {
         .columns {
-          width: auto;
+          width: 100%;
           float: none;
         }
-
-
-
-
-
-
-
+      }
 
 
 
