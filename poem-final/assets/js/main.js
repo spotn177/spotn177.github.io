@@ -1,3 +1,4 @@
+
 $(function () {
         $(".columns .final-word, .final-button, .next-screen").hide();
         $(".word").click(function () {
@@ -21,6 +22,29 @@ $(function () {
           });
           $(".first-screen").fadeOut(function () {
             $(".next-screen").fadeIn();
+
+
+
           });
         });
       });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

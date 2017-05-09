@@ -7,6 +7,7 @@
         -ms-transition: all 0.5s linear;
         -o-transition: all 0.5s linear;
         transition: all 0.5s linear;
+        font-family: helvetica;
       }
       .columns {
         width: 33%;
@@ -18,12 +19,12 @@
         padding: 5px;
         border: 1px solid #ccc;
         border-radius: 3px;
-        margin: 5px;
+        margin: 30px;
         cursor: pointer;
       }
       .columns .word:hover {
-        background-color: #ccf;
-        border-color: #99f;
+        background-color: #ffb95c;
+        border-color: #ffb95c;
       }
       .columns .word.changed {
         font-weight: bold;
@@ -42,23 +43,43 @@
       .final-button {
         display: inline-block;
         padding: 5px 10px;
-        border: 1px solid #99f;
+        border: 1px solid #ccc;
         border-radius: 3px;
         margin: 10px;
-        background-color: #ccf;
+        background-color: #ccc;
         font-weight: bold;
         cursor: pointer;
       }
       .final-button:hover {
-        background-color: #cff;
+        background-color: #fff;
       }
       .next-screen p {
         padding: 10px;
         text-align: center;
+        font-size: 50px
       }
       @media screen and (max-width: 350px) {
         .columns {
           width: auto;
           float: none;
-          border-bottom: 1px solid #ccc;
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
