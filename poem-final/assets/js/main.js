@@ -17,12 +17,21 @@
         $(".next-screen").append("<p>"+ $(this).data("changed")+ "</p>");
       });
 
-var third = 0;
+var current_column = 0;
+var third = $(window).width()/3-100;
       $(".next-screen p").each(function() {
-        $(this).css("top", Math.random()*$(window).height());
-        $(this).css("left", ((Math.random()*$(window).width()/3)+third)-100);
-        console.log($(this).width())
-        third = third + ($(window).width()/3);
+        var word_width = $(this).outerWidth();
+        var half_word_width = word_width/2;
+        this_column = (((Math.random()*third)+current_column)-word_width)+current_column;
+        var word_position_y = Math.random()*$(window).height()-200;
+
+        if (word_position_y < 0) {
+          word_position_y = 30;
+        }
+
+        $(this).css("top", word_position_y);
+        $(this).css("left", this_column);
+        current_column = this_column;
         $(this).css("font-size", (Math.random()*90)+10);
 
 

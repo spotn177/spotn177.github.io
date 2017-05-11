@@ -25,6 +25,10 @@
   height: 100px;
 }
 
+.winreload:hover{
+  cursor: pointer;
+}
+
 
 
       .columns {
