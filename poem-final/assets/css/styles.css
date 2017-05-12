@@ -20,7 +20,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  background-color: yellow;
+  background-color: transparent;
   width: 100px;
   height: 100px;
 }

@@ -1,0 +1,115 @@
+* {
+	vertical-align: top;
+}
+
+body {
+	font-family: helvetica;
+	font-size: 0px;
+	/*line-height: 1px;*/
+
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 960px;
+	background: #ccc;
+	margin: 0 auto;
+	/*margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 50px;
+	margin-right: 50px;*/
+}
+
+
+
+h1 {
+	font-size: 16px;
+	margin: 0;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 16px;
+	margin: 0;
+	font-weight: normal;
+}
+
+/*These are my links*/
+
+a:link {
+	color: #000000;
+	/*Black is 000000*/
+	/*White is ffffff*/
+	/* RR GG BB*/
+	/* ff 00 00*/
+	text-decoration: none;
+	border: 1px solid #000000;
+	background-color: #ccc;
+}
+
+a:visted {
+	color: #0000ff;
+
+}
+
+a:hover {
+	color: #ffff00;
+}
+
+a:active {
+	color: #ff0000;
+}
+
+
+/*.studio, .lab {
+	width: 400px;
+	background: #fff;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 20px;
+}*/
+
+
+/*.header, .footer {
+	width: 930px;
+	background: #fff;
+	margin: 0 15;
+	font-size: 16px;
+	line-height: 20px;
+}*/
+
+
+
+.c {
+
+	background: #ff0;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 0 15px 30px 15px;
+	display: inline-block;
+}
+
+.parent { font-size: 0; line-height: 0; }
+
+.no-gutters { margin: 0; }
+.no-left-gutter { margin-left: 0; }
+.no-right-gutter { margin-right: 0; }
+
+
+.c1 { width: 130px; background: #fff; }
+
+.c2 { width: 290px; }
+
+.c3 { width: 450px; }
+
+.c4 { width: 610px; }
+
+.c5 { width: 770px; }
+
+.c6 { width: 930px; }
+
+img {
+	width: 100%;
+	height: auto;
+}
