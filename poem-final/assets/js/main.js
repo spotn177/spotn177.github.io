@@ -35,7 +35,7 @@ var third = $(window).width()/3-100;
         $(this).css("font-size", (Math.random()*90)+10);
 
         $(this).css("color", '#'+(Math.random()*0xFFFFFF<<0).toString(16));
-        const fonts = ["Helvetica", "Arial", "Comic Sans", "Times New Roman", "Calibri", "Verdana", "Impact"];
+        const fonts = ["Helvetica", "Arial", "Comic Sans", "Times New Roman", "Calibri", "Verdana", "Impact", "Garamond"];
         console.log(fonts[Math.floor(Math.random() * (fonts.length-1))+0]);
         $(this).css("font-family", fonts[Math.floor(Math.random() * (fonts.length-1))+0]);
 
