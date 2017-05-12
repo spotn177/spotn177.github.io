@@ -34,6 +34,11 @@ var third = $(window).width()/3-100;
         current_column = this_column;
         $(this).css("font-size", (Math.random()*90)+10);
 
+        $(this).css("color", '#'+(Math.random()*0xFFFFFF<<0).toString(16));
+        const fonts = ["Helvetica", "Arial", "Comic Sans", "Times New Roman", "Calibri", "Verdana", "Impact"];
+        console.log(fonts[Math.floor(Math.random() * (fonts.length-1))+0]);
+        $(this).css("font-family", fonts[Math.floor(Math.random() * (fonts.length-1))+0]);
+
 
       });
 
@@ -47,6 +52,11 @@ var third = $(window).width()/3-100;
 $(".winreload").click(function() {
   location.reload();
 })
+        
+
+
+
+
 
 
 
